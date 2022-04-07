@@ -149,6 +149,13 @@ border: none !important;
 .left-side iframe{
     margin-bottom: 10px;
 }
+.left-side .video .tag{
+    font-size: 12px;
+}
+.left-side .video .tag a{
+    margin-right: 3px;
+    text-decoration: none;
+}
 .left-side .video h3{
     margin: 0 !important;
     font-family: "Roboto","Arial",sans-serif;
@@ -169,6 +176,8 @@ border: none !important;
 }
 .right-side{
     padding-top: 20px;
+    padding-right: 50px;
+    overflow: hidden;
     position: relative;
     margin-top: 0;
     width: 30%;
@@ -206,11 +215,21 @@ border: none !important;
     justify-content: flex-start;
     height: 100px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 .right-side .related-video .item h5{
     margin: 0 !important;
     margin-left: 7px !important;
+    width: 200px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    cursor: pointer;
 }
 .right-side .related-video .item img{
     width: 150px;
+    height: 100%;
+    overflow: hidden;
 }
