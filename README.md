@@ -1,3 +1,3 @@
 # Html-youtube-video-player
 
-> try to implement YouTube 
+> try to implement YouTube clone
